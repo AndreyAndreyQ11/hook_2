@@ -8,6 +8,9 @@ import Meaning from "./component/Meaning/Meaning.js"
 function Test_2() {
 
   const [counter, setCounter] = useState({ Good: 0, Neutral: 0, Bad: 0 })
+  // проверка проверка проверка проверка проверка
+
+
 
   function clickCount(clickButton) {
     setCounter((prevCounter) => {

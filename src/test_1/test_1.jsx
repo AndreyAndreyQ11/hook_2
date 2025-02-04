@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import s from "./App.module.css";
+import s from "./test_1.module.css";
 
-function App() {
+function Test_1() {
 
   const [counter, setCounter] = useState(0)
 
   function increment() {
-    setCounter((prevConter) => {
-      return prevConter + 1
-    })
+
 
     setCounter((prevConter) => prevConter + 1)
   }
@@ -28,4 +26,4 @@ function App() {
     </div>);
 }
 
-export default App;
+export default Test_1;
